@@ -1,5 +1,5 @@
 # Nano Diffusion Language Model
-
+![Diffusion LLM INFERENCE](p2.gif)
 A small implementation of a Bonsai diffusion language models based on LLaDA paper.
 
 I have used ModernBERT (bidirectional transformer) as a "mask predictor" trained with:
