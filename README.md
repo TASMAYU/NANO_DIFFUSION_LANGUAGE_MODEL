@@ -9,6 +9,9 @@ I have used ModernBERT (bidirectional transformer) as a "mask predictor" trained
 - 1/t loss weighting added in the loss
 - Iterative remasking sampling
 
+<img width="1600" height="458" alt="image" src="https://github.com/user-attachments/assets/0a637a19-79af-43d6-8a1b-ff1acf0efb17" />
+
+
 ## Quick Start
 
 ```bash
