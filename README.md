@@ -2,10 +2,9 @@
 
 A small implementation of a Bonsai diffusion language models based on LLaDA paper.
 
-
-This model uses a bidirectional transformer (ModernBERT) as a "mask predictor" trained with:
+I have used ModernBERT (bidirectional transformer) as a "mask predictor" trained with:
 - Random masking ratio t ~ U[0,1]
-- 1/t loss weighting 
+- 1/t loss weighting added in the loss
 - Iterative remasking sampling
 
 ## Quick Start
@@ -18,4 +17,4 @@ pip install -r requirements.txt
 python diffusion_train.py
 
 # Generate
-python demo.py
+python inference.py
